@@ -26,7 +26,7 @@ const Scroller: React.FC = () => {
   ];
 
   return (
-    <div className='w-[100vw] px-[2%] md:px-[4%] lg:px-[6%] select-none'>
+    <div className='w-[100vw] px-[2%] md:px-[4%] lg:px-[6%] my-[35px]  select-none'>
     <div className="category cursor-pointer overflow-x-auto scrollbar-hidden flex space-x-3 p-2 flex-nowrap">
       {rentalCategories.map((cat) => (
         <CatCard key={cat} category={cat} />
